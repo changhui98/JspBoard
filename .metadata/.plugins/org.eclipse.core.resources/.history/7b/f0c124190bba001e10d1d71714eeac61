@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+	<div class="container bg-waring shadow mx-auto mt-5 p-5 w-75">
+		<h2>My ToDo App</h2>
+		<hr>
+		<div class="input-group">
+			<input it="item" class="form-control" type="text" placeholder="할일을 입력하세요..">
+			<button type="button" class="btn btn-primary" onclick="addItem()">할일 추가</button>
+		</div>
+		<hr>
+		<ul id="todolist" class="list group"></ul>
+	</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>	
+</body>
+</html>
